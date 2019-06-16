@@ -1,3 +1,4 @@
+dist: xenial
 sudo: false
 language: python
 env:
@@ -8,6 +9,8 @@ python:
   - "3.4"
   - "3.5"
   - "3.6"
+  - '3.7-dev'
+  - '3.7'
 before_script:
   - pip install coverage coveralls
   - pip install -q $DJANGO_VERSION
@@ -21,5 +24,6 @@ matrix:
    exclude:
       - env: DJANGO_VERSION='https://github.com/django/django/archive/master.tar.gz'
         python: "3.4"
+      - env: 
    allow_failures:
       - env: DJANGO_VERSION='https://github.com/django/django/archive/master.tar.gz'
