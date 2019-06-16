@@ -14,7 +14,7 @@ user to fill.
 
 + Add a line to your urls.py::
 
-    url(r'^feedback/', include('feedback.urls')),
+    path('feedback/', include('feedback.urls')),
 
 + Use it (only requires template modifications)::
 
