@@ -1,6 +1,7 @@
 Feedback
 ========
-[![Build Status](https://travis-ci.org/vini84200/django-feedback.svg?branch=master)](https://travis-ci.org/vini84200/django-feedback)
+.. image:: https://travis-ci.org/vini84200/django-feedback.svg?branch=master
+    :target: https://travis-ci.org/vini84200/django-feedback
 Creates an ajax "feedback" button on your site, which pops up a form for the
 user to fill.
 
